@@ -23,7 +23,7 @@ All user input and console output are abstracted through wrapper classes to allo
 ---
 
 ## Design Principles
-- **Single Responsibility:** Each class performs one clear function (e.g., game logic, input, or output).
+- **Single Responsibility:** Each class performs one clear function
 - **Separation of Concerns:** Game logic is separated from user interface operations.
 - **Encapsulation:** Internal state is private and accessed only through methods.
 - **Testability:** Input and output are mockable to ensure deterministic tests.
